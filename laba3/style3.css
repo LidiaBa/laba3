@@ -1,0 +1,101 @@
+#b {
+text-align: center;
+}
+
+#pl {
+min-height: 30px;
+padding-left: 10px;
+font-size: 18px;
+border-radius: 7px;
+}
+
+#dt {
+text-align: center;
+}
+
+table{
+border: 2px;
+margin: 15px;
+display: inline-block;
+border-collapse: collapse;
+background: #F0FFFF;
+}
+
+td {
+background: #F5FFFA;
+font-size: 20px;
+padding: 5px 10px;
+border: 2px solid;
+text-align: center;
+}
+
+th {
+border: 2px solid;
+font-size: 20px;
+padding: 5px 10px;
+}
+
+#fcenter {
+display: none;
+width: 100%;
+height: 50%;
+margin: auto;
+text-align: center;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+
+}
+
+#forma {
+padding: 15px 10px;
+display: inline-block;
+border: 2px solid;
+border-radius: 15px;
+background: white;
+box-shadow: 3px 3px 15px 0px #000000;
+}
+
+#dcenter {
+display: none;
+width: 100%;
+height: 50%;
+text-align: center;
+margin: auto;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+position: absolute;
+
+}
+
+#delete {
+font-size: 18px;
+margin-top: 77px;
+border: 2px solid black;
+border-radius: 15px;
+display: inline-block;
+padding: 10px 10px;
+background: white;
+box-shadow: 2px 2px 15px 0px #000000;
+}
+body
+{
+background-color:#FFFFF0;	}
+#bat
+{
+background-color:#b0e0e6;
+font-size:15px;
+margin:10px;
+padding:10px;
+width:94px;
+height:35px;
+text-align:center;
+border-radius:10px;
+margin-left:50px;
+margin-right:40px;
+margin-top:10px;
+}

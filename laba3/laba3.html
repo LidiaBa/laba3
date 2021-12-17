@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Библиотечный список 3</title>
+    <link href="style3.css" rel="stylesheet">
+</head>
+<body>
+<div id="dt">
+    <table border="1">
+        <tr>
+            <th>Ф.И.О. студента</th>
+            <th>Группа</th>
+            <th>Номер телефона</th>
+            <th>e-mail</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>Бабушкина Лидия Алексеевна</td>
+            <td>ЦПИ-11</td>
+            <td>+79051544643</td>
+            <td>Lidia@yandex.ru</td>
+            <td>
+                <div id="but">
+                <input  class="dobavit" type="button" value="Изменить">
+                <input  class="delte" type="button" value="Удалить">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>Уланова Маргарита Андреевна</td>
+            <td>ЦИС-19</td>
+            <td>+79064535004</td>
+            <td>Margo@mail.ru</td>
+            <td>
+                <input  class="dobavit" type="button" value="Изменить">
+                <input   class="delte" type="button" value="Удалить">
+            </td>
+        </tr>
+        <tr>
+            <td>Бесплюк Полина Евгеньевна</td>
+            <td>ЦИС-17</td>
+            <td>+79634634636</td>
+            <td>Polina@gmail.com</td>
+            <td>
+                <input class="dobavit" type="button" value="Изменить">
+                <input   class="delte" type="button" value="Удалить">
+            </td>
+        </tr>
+        <tr>
+            <td>Гончарова Виктория Александровна</td>
+            <td>ЦИС-19</td>
+            <td>+79067342567</td>
+            <td>Vika@gmail.com</td>
+            <td>
+                <input  class="dobavit" type="button" value="Изменить">
+                <input  class="delte" type="button" value="Удалить">
+            </td>
+        </tr>
+    </table></div>
+<div id="b"><div>
+    <input  class="dobavit" type="button" value="Добавить">
+</div></div>
+<div id="fcenter"><form id="forma" class="forma" method="post" enctype="multipart/fron-data">
+    <input id="pl" type="text" value="" placeholder="Ф.И.О." size="50"><br/><br/>
+    <input id="pl" type="text" value="" placeholder="Группа" size="50"><br/><br/>
+    <input id="pl" type="text" value="" placeholder="Номер телефона" size="50"><br/><br/>
+    <input id="pl" type="email" value="" placeholder="E-mail" size="50"><br/><br/>
+    <input  id="bat" type="button" value="Сохранить">
+    <input  id="bat" class="otmenit" type="button" value="Отмена">
+</form>
+
+</div>
+
+<div id="dcenter"><div id="delete"> Вы действительно хотите удалить данные?<br/><br/>
+    <input  type="button" id="bat" value="Да">
+    <input   class="net" id="bat"  type="button" value="Нет">
+</div>
+    <script src="js.js"></script>
+
+</body>
+</html>
