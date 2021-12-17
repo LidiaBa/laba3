@@ -1,14 +1,14 @@
 function skrit(){
-document.getElementById("fcenter").style.display = "none"
+document.getElementById("centerforma").style.display = "none"
 }
 function otkrit(){
-document.getElementById("dcenter").style.display = "block"
+document.getElementById("centerp").style.display = "block"
 }
 function zatkrit(){
-document.getElementById("dcenter").style.display = "none"
+document.getElementById("centerp").style.display = "none"
 }
 function pokazat(){
-document.getElementById("fcenter").style.display = "block"
+document.getElementById("centerforma").style.display = "block"
 }
 for (let a of document.getElementsByClassName("otmenit")){
 a.addEventListener("click", skrit)
